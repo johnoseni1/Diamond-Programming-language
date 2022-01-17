@@ -13,7 +13,7 @@ def create_function(function_name, current_lines):
     function_name = function_name[:len(function_name) - 1]
 
     for current_line in current_lines:
-        if current_line.startswith('    '):
+        if current_line.startswith(''):
             function_lines.append(current_line.replace('',''))
 
     functions[function_name] = function_lines
