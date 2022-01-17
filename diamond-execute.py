@@ -9,7 +9,7 @@ with open(filename, 'r') as f:
     data = f.read()
 
 variables = {
-    'test': 'Hello',
+    'test': 'Hello there',
     'true': True,
     'false': False
 }
