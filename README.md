@@ -4,9 +4,7 @@
 
 ## Requirements to run Diamond 
 
-- All needed right now is nothing but the python programming langauge, and you could learn how to download and set it up here : 
-
-- 
+- All needed right now is nothing but the python programming langauge, and you could learn how to download and set it up [here](https://medium.com/co-learning-lounge/how-to-download-install-python-on-windows-2021-44a707994013)
 
 
 
