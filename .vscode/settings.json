@@ -3,5 +3,7 @@
         "other": true,
         "comments": true,
         "strings": false
-    }
+    },
+    
+    "python.analysis.extraPaths": ["./sources"]
 }
