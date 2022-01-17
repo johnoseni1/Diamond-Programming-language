@@ -2,6 +2,9 @@
  <h1> Diamond Programming Language </h1>
  </div>
 
+## Requirements to run Diamond 
+
+
 
 
 
