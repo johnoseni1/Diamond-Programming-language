@@ -1,3 +1,3 @@
 <div align="center">
- <h1> Diamond PL </h1>
+ <h1> Diamond Programming Language </h1>
  </div>
