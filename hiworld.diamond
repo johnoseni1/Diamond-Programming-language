@@ -1,0 +1,6 @@
+
+
+create_function testing_func:
+    spill "This is my function"
+
+    spill "this was actually not imported"
