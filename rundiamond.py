@@ -1,4 +1,4 @@
-import functions as _functions_module
+import functions as modulefunctions
 
 def run_function(index, python_funcs_and_vars, line, lines, _functions, variables):
     line = line.split(' ')
@@ -6,7 +6,7 @@ def run_function(index, python_funcs_and_vars, line, lines, _functions, variable
     func_name = line[0]
     del line[0]
 
-    _functions_module.execute_code(
+    modulefunctions.execute_code(
         func_name,
         line,
         variables,
