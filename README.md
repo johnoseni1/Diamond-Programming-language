@@ -4,7 +4,9 @@
 
 ## Requirements to run Diamond 
 
+- All needed right now is nothing but the python programming langauge, and you could learn how to download and set it up here : 
 
+- 
 
 
 
