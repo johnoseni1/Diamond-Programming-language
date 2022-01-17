@@ -1,0 +1,32 @@
+# use this when fixing a comment in Diamond programming language
+
+# When you wanna log on the console
+    spill "Do you love this?"
+
+# When you wanna create a variable in Diamond
+
+    var_name diamond == "Testing!"
+
+# When you wanna print your variable name to the console
+
+    spill diamond
+
+# Creating functions in diamond
+    create_function my_function:
+    spill diamond
+    spill "Do you love this?"
+
+# Run your functions
+    my_function
+
+# This is how you import other Diamond files
+    
+    import rateme
+
+# When you wanna use functions from other files in Diamond
+    
+    testing_func
+
+# You could also use python, Just in case to run the codes also
+    
+    run_python "print('Writing this is fun')"
