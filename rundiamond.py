@@ -13,7 +13,7 @@ def run_function(index, python_funcs_and_vars, lines, line, _functions, variable
         index,
         lines,
         _functions,
-        python_funcs_and_vars
+        python_funcs_and_var
     )
 
 def run_main(line, variables, index, lines, _functions_dict, python_funcs_and_vars):
