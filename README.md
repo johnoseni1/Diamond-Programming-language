@@ -1,4 +1,4 @@
 <div align="center">
  <h1> Diamond Programming Language </h1>
- <h2> Author : [John Oseni](https://linktr.ee/johnoseni)
+    <h3>  Author  <a href="https://linktr.ee/johnoseni">John Oseni</a> </h3>
  </div>
