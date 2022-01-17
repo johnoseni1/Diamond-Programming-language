@@ -1,6 +1,6 @@
 import functions as modulefunctions
 
-def run_function(index, python_funcs_and_vars, line, lines, _functions, variables):
+def run_function(index, python_funcs_and_vars, lines, line, _functions, variables):
     line = line.split(' ')
 
     func_name = line[0]
