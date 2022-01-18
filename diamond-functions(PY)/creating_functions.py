@@ -2,9 +2,9 @@
 # syntax for creating functions
 
 
-from . import syntax_error
-import functions as functions
+from .show_erros import syntax_error 
 
+from ..rundiamond import modulefunctions
 
 def create_function(function_name, current_lines):
     function_lines = []
@@ -18,4 +18,4 @@ def create_function(function_name, current_lines):
         if current_line.startswith(''):
             function_lines.append(current_line.replace('',''))
 
-    functions[function_name] = function_lines
+    modulefunctions[function_name] = function_lines
