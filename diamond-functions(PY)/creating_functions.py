@@ -4,6 +4,7 @@
 
 from . import syntax_error
 
+
 def create_function(function_name, current_lines):
     function_lines = []
 

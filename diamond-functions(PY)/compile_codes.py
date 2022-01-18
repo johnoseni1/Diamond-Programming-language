@@ -25,6 +25,8 @@ from . import *
 from .python_run import run_python
 from .creating_functions import create_function
 from .creating_variables import create_variable
+from ..rundiamond import run_main
+from ..rundiamond import run_function
 
 def execute_code(func_name, line, variables, index, lines, functions, python_funcs_and_vars):
     if func_name == 'spill':
