@@ -26,7 +26,7 @@ from .python_run import run_python
 
 def execute_code(func_name, line, variables, index, lines, functions, python_funcs_and_vars):
     if func_name == 'spill':
-        text = get_variable(line[0], variables, line)
+        text = getting_variable(line[0], variables, line)
 
         spill(text)
     elif func_name == 'create_var':
