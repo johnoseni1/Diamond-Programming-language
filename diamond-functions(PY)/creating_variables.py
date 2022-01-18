@@ -23,6 +23,8 @@
 
 # creating variables in diamond-pl
 
+from . import variable_not_found 
+
 def create_variable(var_name, var_value, variables):
     text = ""
 
