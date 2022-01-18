@@ -21,9 +21,9 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-from . import get_variable
+from . import getting_variables
 
 def run_python(string, variables, line, python_funcs_and_vars):
     # print("Pythin environment running ..")
-    string = get_variable(string, variables, line)
+    string = getting_variables(string, variables, line)
     exec(string, python_funcs_and_vars)
