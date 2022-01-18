@@ -1,5 +1,5 @@
 from . import *
-from .run_python import run_python
+from .python_run import run_python
 
 def execute_code(func_name, line, variables, index, lines, functions, python_funcs_and_vars):
     if func_name == 'say':
