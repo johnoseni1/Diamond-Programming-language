@@ -21,6 +21,9 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+
+# Import from ther files and folder
+
 from . import *
 from .python_run import run_python
 from .creating_functions import create_function
@@ -31,6 +34,9 @@ from .getting_variables import *
 from .show_erros import *
 from .getting_functions import *
 from .spill import *
+
+
+# Main codes
 
 def execute_code(func_name, line, variables, index, lines, functions, python_funcs_and_vars):
     if func_name == 'spill':
