@@ -28,6 +28,7 @@ from .creating_variables import create_variable
 from ..rundiamond import run_main
 from ..rundiamond import run_function
 from .getting_variables import *
+from .show_erros import *
 from .getting_functions import *
 from .spill import *
 
