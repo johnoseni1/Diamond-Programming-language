@@ -25,10 +25,10 @@ from . import *
 from .python_run import run_python
 
 def execute_code(func_name, line, variables, index, lines, functions, python_funcs_and_vars):
-    if func_name == 'say':
+    if func_name == 'spill':
         text = get_variable(line[0], variables, line)
 
-        say(text)
+        spill(text)
     elif func_name == 'create_var':
         var_name = line[0]
         var_value = line[1]
