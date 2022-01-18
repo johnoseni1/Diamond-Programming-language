@@ -3,6 +3,7 @@
 
 
 from . import syntax_error
+import functions as functions
 
 
 def create_function(function_name, current_lines):
