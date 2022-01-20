@@ -26,6 +26,12 @@ python execute.py <diamondfilename>
 diamond <diamondfilename>
 ```
 
+You could check out my `Schemacodes.diamond` in the root of this project
+You can run it by running the following command in your terminal:
+```shell
+python execute.py example.cobra
+```
+or by using the other two options above: [Windows](#windows), [Mac or Linux](#mac-or-linux).
 
  <div>
      <h3>  Author  <a href="https://linktr.ee/johnoseni">John Oseni</a> </h3>
