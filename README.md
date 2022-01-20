@@ -53,29 +53,30 @@ Sample: `spill Hello, World!`
 
 #### create_variables in Diamond
  Create a variable in diamond
+
 <br>
 Arguments:
 - name: Variable name
-- value: Variable value. Can be an existing variable or string.
+- value: Variable value. Could be a existing variable or string before
 
-Example: `create_var test "This is a test"`
+Example: `create_variable dior "this is me"`
 
 #### create_function
 Description: Creates a function
 <br>
 Arguments:
-- name: Function name
+- name: Name the function
 
 Example:
 ```
-create_function say_hello:
-    say "hello"
+create_function my_world:
+    spill "hello"
 ```
 
-To execute a function:
+when you wanna execute a function?:
 ```
-# You just type the function's name
-say_hello
+# You just type the function's name down
+my_world
 ```
 
  <div>

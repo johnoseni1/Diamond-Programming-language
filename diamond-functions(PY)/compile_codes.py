@@ -43,7 +43,7 @@ def execute_code(func_name, line, variables, index, lines, functions, python_fun
         text = getting_variable(line[0], variables, line)
 
         spill(text)
-    elif func_name == 'create_var':
+    elif func_name == 'create_variable':
         var_name = line[0]
         var_value = line[1]
 
