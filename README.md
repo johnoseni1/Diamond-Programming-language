@@ -29,7 +29,7 @@ diamond <diamondfilename>
 You could check out my `Schemacodes.diamond` in the root of this project
 You can run it by running the following command in your terminal:
 ```shell
-python execute.py example.cobra
+python execute.py Schemacodes.diamond 
 ```
 or by using the other two options above: [Windows](#windows), [Mac or Linux](#mac-or-linux).
 
