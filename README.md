@@ -46,8 +46,8 @@ The current functions for diamond are:
 #### spill
 Description: Print this in the console
 <br>
-Arguments:
-- text: Text to print out to the console.
+Arguments will be like :
+- text: e.g (`hello world`)
 
 Sample: `spill Hello, World!`
 
