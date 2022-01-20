@@ -9,12 +9,22 @@
 # Usage (Diamond PL)
 
 ### How to run
+
+#### Mac or Linux
+```bash
+./diamond.sh <diamondfilename>
+```
+
 What to write to run the codes:
 
 ```shell
 python execute.py <diamondfilename>
 ```
-You can also use this other two options down also:
+
+#### Windows
+```batch
+diamond <diamondfilename>
+```
 
 
  <div>
