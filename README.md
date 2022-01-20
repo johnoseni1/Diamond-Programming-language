@@ -44,7 +44,7 @@ For example: `# Of cause we know that this is a comment and it would be ignored 
 ### Functions
 The current functions for diamond are:
 #### spill
-Description: Print this in the console
+Task: Print this in the console
 <br>
 Arguments will be like :
 - text: e.g (`hello world`)
@@ -78,6 +78,33 @@ when you wanna execute a function?:
 # Type the function's name down
 my_world
 ```
+
+#### import a file in diamond
+Task: Import another file into your own file
+<br>
+Arguments:
+- The filename: The name of the file you want to import could end with .diamonod or maybe not.
+
+Example: `import hiworld`
+
+In hiworld.diamond, there is a function called `my_function`. To run it, just type it in.
+```
+import hiworld
+my_function
+```
+The `import` function will always import everything in the file for now
+
+#### python_run
+Task: Runs a line of Python code in the diamond environment.
+<br>
+Arguments:
+- query: The query that you want to run.
+
+Sample : `python_run "print('Hello World!')"`
+
+This makes it go in line with python programming language, because it was written in python
+
+For other samples check the folder `Schemacodes.diamond` file in the root DIR.
 
  <div>
      <h3>  Author  <a href="https://linktr.ee/johnoseni">John Oseni</a> </h3>

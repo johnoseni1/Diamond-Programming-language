@@ -29,4 +29,4 @@
 
 # You could also use python, Just in case to run the codes also
     
-    run_python "print('Writing this is fun')"
+    python_run "print('Writing this is fun')"

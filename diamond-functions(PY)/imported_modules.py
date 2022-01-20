@@ -5,7 +5,7 @@
 # from .creating_variables import *
 # from .show_erros import *
 # from .compile_codes import *
-# from .python_run import run_python
+# from .python_run import python_run
 # from .getting_variables import *
 # from .getting_functions import *
 

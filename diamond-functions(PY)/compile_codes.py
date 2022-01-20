@@ -25,7 +25,7 @@
 # Import from ther files and folder
 
 from . import *
-from .python_run import run_python
+from .python_run import python_run
 from .creating_functions import create_function
 from .creating_variables import create_variable
 from ..rundiamond import run_main
@@ -70,9 +70,9 @@ def execute_code(func_name, line, variables, index, lines, functions, python_fun
         module_code = module_code.split('\n')
         for i in range(len(module_code)):
             run_main(module_code[0], variables, 0, module_code, functions)
-    elif func_name == 'run_python':
+    elif func_name == 'python_run':
         query = line[0]
-        run_python(query, variables, line, python_funcs_and_vars)
+        python_run(query, variables, line, python_funcs_and_vars)
     elif func_name == '' or func_name.startswith('#'):
         pass
     else:

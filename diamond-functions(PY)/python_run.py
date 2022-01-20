@@ -23,7 +23,7 @@
 
 from . import getting_variables
 
-def run_python(string, variables, line, python_funcs_and_vars):
+def python_run(string, variables, line, python_funcs_and_vars):
     # print("Pythin environment running ..")
     string = getting_variables(string, variables, line)
     exec(string, python_funcs_and_vars)
