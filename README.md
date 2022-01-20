@@ -32,7 +32,7 @@ You can run it by running the following command in your terminal:
 ```shell
 python execute.py Schemacodes.diamond 
 ```
-or by using the other two options above: [Windows](#windows), [Mac or Linux](#mac-or-linux).
+or by using the above: [Windows](#windows), [Mac or Linux](#mac-or-linux).
 
  <div>
      <h3>  Author  <a href="https://linktr.ee/johnoseni">John Oseni</a> </h3>
