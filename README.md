@@ -8,6 +8,14 @@
 
 # Usage (Diamond PL)
 
+### How to run
+What to write to run the codes:
+
+```shell
+python execute.py <name-of-cobra-file>
+```
+You can also use this other two options down also:
+
 
  <div>
      <h3>  Author  <a href="https://linktr.ee/johnoseni">John Oseni</a> </h3>
