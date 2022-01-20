@@ -51,6 +51,33 @@ Arguments will be like :
 
 Sample: `spill Hello, World!`
 
+#### create_variables in Diamond
+ Create a variable in diamond
+<br>
+Arguments:
+- name: Variable name
+- value: Variable value. Can be an existing variable or string.
+
+Example: `create_var test "This is a test"`
+
+#### create_function
+Description: Creates a function
+<br>
+Arguments:
+- name: Function name
+
+Example:
+```
+create_function say_hello:
+    say "hello"
+```
+
+To execute a function:
+```
+# You just type the function's name
+say_hello
+```
+
  <div>
      <h3>  Author  <a href="https://linktr.ee/johnoseni">John Oseni</a> </h3>
  </div>
