@@ -75,7 +75,7 @@ create_function my_world:
 
 when you wanna execute a function?:
 ```
-# You just type the function's name down
+# Type the function's name down
 my_world
 ```
 
