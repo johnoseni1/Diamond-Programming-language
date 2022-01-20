@@ -27,6 +27,7 @@ diamond <diamondfilename>
 ```
 
 You could check out my `Schemacodes.diamond` in folder DIR
+
 You can run it by running the following command in your terminal:
 ```shell
 python execute.py Schemacodes.diamond 
