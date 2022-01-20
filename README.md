@@ -12,7 +12,7 @@
 What to write to run the codes:
 
 ```shell
-python execute.py <name-of-cobra-file>
+python execute.py <name-of-diamond-file>
 ```
 You can also use this other two options down also:
 
