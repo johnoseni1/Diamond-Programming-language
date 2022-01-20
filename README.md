@@ -34,6 +34,23 @@ python execute.py Schemacodes.diamond
 ```
 or by using the above: [Windows](#windows), [Mac or Linux](#mac-or-linux).
 
+### Syntax
+The basic syntax for a diamond programming language program is: `name of function any arguments to be passed in to the function`.
+For example, 
+if you input `spill Hello, World!`, `spill` is the function  in diamond
+and `Hello, World!` is the argument passed to it. To create a comment, use the # sign. 
+For example: `# Of cause we know that this is a comment and it would be ignored by diamond PL`.
+
+### Functions
+The current functions for diamond are:
+#### spill
+Description: Print this in the console
+<br>
+Arguments:
+- text: Text to print out to the console.
+
+Sample: `spill Hello, World!`
+
  <div>
      <h3>  Author  <a href="https://linktr.ee/johnoseni">John Oseni</a> </h3>
  </div>
