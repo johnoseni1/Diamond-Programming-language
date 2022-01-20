@@ -12,7 +12,7 @@
 What to write to run the codes:
 
 ```shell
-python execute.py <diamond-file-name>
+python execute.py #diamondfilename
 ```
 You can also use this other two options down also:
 
